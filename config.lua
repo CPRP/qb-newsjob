@@ -3,15 +3,15 @@ Config = {}
 Config.Locations = {
     ["main"] = {
         label = "Weazle News HQ",
-        coords = vector4(-597.89, -929.95, 24.0, 271.5),
+        coords = vector4(0, 0, 0, 0),
     },
     ["inside"] = {
         label = "Weazle News HQ Inside",
-        coords = vector4(-77.46, -833.77, 243.38, 67.5),
+        coords = vector4(0, 0, 0, 0),
     },
     ["outside"] = {
         label = "Weazle News HQ Outside",
-        coords = vector4(-598.25, -929.86, 23.86, 86.5),
+        coords = vector4(0, 0, 0, 0),
     },
     ["vehicle"] = {
         label = "Vehicle Storage",
@@ -27,23 +27,27 @@ Config.Vehicles = {
 	-- Grade 0
 	[0] = {
 		["rumpo"] = "Rumpo",
+		["Newsvan"] = "News Van",
 	},
 	-- Grade 1
 	[1] = {
 		["rumpo"] = "Rumpo",
-
+		["Newsvan"] = "News Van",
 	},
 	-- Grade 2
 	[2] = {
 		["rumpo"] = "Rumpo",
+		["Newsvan"] = "News Van",
 	},
 	-- Grade 3
 	[3] = {
 		["rumpo"] = "Rumpo",
+		["Newsvan"] = "News Van",
 	},
 	-- Grade 4
 	[4] = {
 		["rumpo"] = "Rumpo",
+		["Newsvan"] = "News Van",
 	}
 }
 
@@ -51,22 +55,31 @@ Config.Helicopters = {
 	-- Grade 0
 	[0] = {
 		["frogger"] = "Frogger",
+		["Newsheli"] = "News Heli",
+		["Newsheli2"] = "News Heli 2",
 	},
 	-- Grade 1
 	[1] = {
 		["frogger"] = "Frogger",
-
+		["Newsheli"] = "News Heli",
+		["Newsheli2"] = "News Heli 2",
 	},
 	-- Grade 2
 	[2] = {
 		["frogger"] = "Frogger",
+		["Newsheli"] = "News Heli",
+		["Newsheli2"] = "News Heli 2",
 	},
 	-- Grade 3
 	[3] = {
 		["frogger"] = "Frogger",
+		["Newsheli"] = "News Heli",
+		["Newsheli2"] = "News Heli 2",
 	},
 	-- Grade 4
 	[4] = {
 		["frogger"] = "Frogger",
+		["Newsheli"] = "News Heli",
+		["Newsheli2"] = "News Heli 2",
 	}
 }
