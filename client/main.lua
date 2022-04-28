@@ -20,7 +20,7 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     PlayerJob = QBCore.Functions.GetPlayerData().job
     if PlayerJob.name == "reporter" then
         local blip = AddBlipForCoord(Config.Locations["vehicle"].coords.x, Config.Locations["vehicle"].coords.y, Config.Locations["vehicle"].coords.z)
-        SetBlipSprite(blip, 225)
+        SetBlipSprite(blip, 184)
         SetBlipDisplay(blip, 4)
         SetBlipScale(blip, 0.6)
         SetBlipAsShortRange(blip, true)
@@ -35,7 +35,7 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
     PlayerJob = JobInfo
     if PlayerJob.name == "reporter" then
         local blip = AddBlipForCoord(Config.Locations["vehicle"].coords.x, Config.Locations["vehicle"].coords.y, Config.Locations["vehicle"].coords.z)
-        SetBlipSprite(blip, 225)
+        SetBlipSprite(blip, 184)
         SetBlipDisplay(blip, 4)
         SetBlipScale(blip, 0.6)
         SetBlipAsShortRange(blip, true)
